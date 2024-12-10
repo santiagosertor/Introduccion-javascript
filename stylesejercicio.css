@@ -1,18 +1,18 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #5f9ea0;
+    background-color: #12daed;
     margin: 0;
     padding: 0;
 }
 .header {
-    background-color: #4682b4;
+    background-color: #1cfc07;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
 .navigation {
-    background-color: #5f9ea0;
+    background-color: #12daed;
     color: white;
     padding: 10px 0;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .nav-link {
-    background-color: #87cefa;
+    background-color: #fefe07;
     color: #333;
     display: block;
     padding: 10px 20px;
@@ -47,6 +47,7 @@ body {
 
 .enunciado{
     color: #000;
+    font-weight: bold;
     text-align: center;
     font-size: 1.5rem;
 }
