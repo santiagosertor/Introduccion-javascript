@@ -1,14 +1,13 @@
-let numero = parseInt(prompt("ingrese 2 numero para la division"))
-
-const a= 0;
-const b= 0;
-    const division = (a , b) => a/b
-    if(division % b == 0 ){
-        alert("el numero no es divisible por 0")
-    }else{
-        alert(`el resultado es ${a,b}`)
+const num1 = parseFloat(prompt("Introduce el primer número:"));
+const num2 = parseFloat(prompt("Introduce el segundo número (divisor):"));
+function dividirNumeros() {
+    if (num2 === 0) {
+       alert("¡Error! No se puede dividir por cero.");
+    } else {
+        const resultado = num1 / num2;
+        alert(`El resultado de la división es: ${resultado}`);
     }
+}
 
-
-
+dividirNumeros();
 
